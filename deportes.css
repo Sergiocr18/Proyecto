@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+h1 {
+	color: rgb(153, 87, 0);
+	font-family: "Brush Script MT", cursive;
+	text-align: center;
+	font-size: 75px;
+}
+h2 {
+	text-align: center;
+}
+.ultimahoradeportes {
+	background-color: rgb(255, 0, 0);
+	color: white;
+}
+figure,
+img {
+	margin-left: 335px;
+	max-width: 100%;
+}
+.contenedor-imagenes,
+img {
+	margin-left: 10px;
+	width: 350px;
+	height: 350px;
+	display: flex;
+}
+
+h3 {
+	text-align: center;
+}
+p {
+	text-align: center;
+	font-size: 25px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+@media screen and (max-width: 600px) {
+	.ultimahoradeportes {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+[class*="row"] {
+	width: 100%;
+}
+[class*="ultimahoradeportes"] {
+	width: 100%;
+}

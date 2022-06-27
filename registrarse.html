@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form Noticias</title>
+		<link href="./Registrarse.css" rel="stylesheet" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script defer src="./registrarse.js"></script>
+		<link rel="stylesheet" href="registrarse.css">
+		<script src="https://www.google.com/recaptcha/api.js?render=6LelHlMgAAAAAO9gx2FNBuWbysQlyklgmF0PWpXW"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<div class="fieldset">
+			<h1>Registrese en este formulario</h1>
+
+			<div action="#" target="_blank" method="get">
+				<div>
+					<div>
+						<label for="fname">Nombre:</label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="nombre" placeholder="Nombre" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-25">
+						<label for="lname">Apellidos:</label>
+					</div>
+					<div class="col-75">
+						<input type="text" id="apellidos" placeholder="Apellidos" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-25">
+						<label for="email">Correo Electronico:</label>
+					</div>
+					<div class="col-75">
+						<input type="email" id="email" placeholder="Email" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-25">
+						<label for="c_autonoma">C.Autònoma:</label>
+					</div>
+					<div class="col-75">
+						<select id="c_autonoma" name="c_autonoma">
+							<optgroup label="peninsulars">
+								<option value="andalusia">Andalucia</option>
+								<option value="Arago">Aragon</option>
+								<option value="p_asturies">Principado de Astúries</option>
+								<option value="pais_basc">País Basco</option>
+								<option value="cantabria">Cantabria</option>
+								<option value="c_la_manxa">Castilla la Mancha</option>
+								<option value="c_lleo">Castilla i Leon</option>
+								<option value="catalunya">Catalunya</option>
+								<option value="extremadura">Extremadura</option>
+								<option value="galicia">Galícia</option>
+								<option value="c_madrid">Comunidad de Madrid</option>
+								<option value="r_de_murcia">Region de Múrcia</option>
+								<option value="navarra">Navarra</option>
+								<option value="la_rioja">La Rioja</option>
+								<option value="pais_valencia">Comunidad Valenciana</option>
+								<option value="illes_balears">Islas Baleares</option>
+								<option value="canaries">Islas Canarias</option>
+								<option value="ceuta">Ceuta</option>
+								<option value="melilla">Melilla</option>
+							</optgroup>
+						</select>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-25">
+						<label for="age">Edad:</label>
+					</div>
+					<div class="col-75">
+						<input type="number" id="años" name="años" min="1" max="200" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-25">
+						<label for="phone">Telèfono:</label>
+					</div>
+					<div class="col-75">
+						<input
+							type="telefono"
+							id="telefono"
+							name="phone"
+							placeholder="Numero de Telefono"
+					
+							required
+						/>
+					</div>
+				</div>
+				<div class="checkbox">
+					<br />
+					
+					<p>Aqui puedes elegir la seccion de noticias que quieras que se te
+						envie a tu email, puedes elegir 1, 2 o las 3 secciones</p>
+					
+					<br />
+					<br />
+					<input type="checkbox" id="checkdeportes" name="checkdeportes" value="1" />
+					<label for="checkdeportes"> Deportes</label>
+					<input type="checkbox" id="checkeconomia" name="checkeconomia" value="1" />
+					<label for="checkeconomia"> Economia</label>
+					<input type="checkbox" id="checkciencia" name="checkciencia" value="1"/>
+					<label for="checkciencia"> Ciencia</label><br /><br />
+				</div>
+
+				<input
+					type="recaptcha"
+					id="g-recaptcha-response"
+					name="g-recaptcha-response"
+				/>
+				<br />
+				<br />
+				<br />
+
+				<button id="buttonRegistro" disabled>Enviar</button>
+				<br />
+			</div>
+
+	</body>
+</html>

@@ -1,0 +1,97 @@
+body {
+	background-color: rgb(255, 115, 0);
+}
+
+html {
+	text-align: center;
+	width: 100%;
+}
+h1 {
+	text-align: center;
+	margin-right: 5px;
+}
+.container {
+	text-align: center;
+	border-radius: 5px;
+	background-color: blue;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+input[type="text"],
+input[type="number"],
+input[type="telefono"],
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	opacity: 1;
+}
+label {
+	text-align: left;
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.fieldset {
+	background-color: rgb(190, 182, 182);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: auto;
+	width: 40%;
+}
+
+input {
+	padding: 10px;
+	margin-right: 5px;
+}
+input[type="checkbox"] {
+	margin-right: 12px;
+	text-align: center;
+	display: inline-block;
+}
+input[type="recaptcha"] {
+	margin-right: 10px;
+	text-align: left;
+}
+.col-25 {
+	margin-top: 10px;
+}
+.col-75 {
+	margin-top: 5px;
+}
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+@media screen and (max-width: 600px) {
+	.col-25,
+	.col-75,
+	input[type="submit"] {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+.inputSuccess {
+	background-color: rgb(29, 101, 0);
+	border: 2px solid green;
+}
+.inputError {
+	background-color: tomato;
+	border: 2px solid red;
+}
+button {
+	background-color: #14d4ee;
+	color: rgb(7, 6, 1);
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center;
+	margin-right: 5px;
+}
+button:hover {
+	background-color: #004704;
+	color: rgb(248, 233, 17);
+}

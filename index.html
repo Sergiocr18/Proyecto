@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Index</title>
+		<link rel="stylesheet" href="index.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<div class="navbar">
+			<a href="#deportes">DEPORTES</a>
+			<a href="#economia">ECONOMIA</a>
+			<a href="#ciencia">CIENCIA</a>
+
+			<div class="dropdown">
+				<button class="dropbtn">
+					SECCIONES
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="/deportes.html">Deportes</a>
+					<a href="/economia.html">Economia</a>
+					<a href="/ciencia.html">Ciencia</a>
+				</div>
+			</div>
+			<div class="navbar-right">
+				<button type="enviar"><a href="registrarse.html">Registrate</a></button>
+				<!-- <a href="#about">About</a> -->
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="presntacion">
+				<h1>Bienvenidos a la web de noticias de ULTIMA HORA</h1>
+				<p>
+					En esta web podras ver las noticias de ultima hora de los deportes,
+					economia y ciencia. Podras registrarse en un formulario para recibir
+					las noticias de ultima hora en tu email.
+				</p>
+
+				<figure>
+					<img src="noticias.jpg" alt="Noticias" id="imgNoticias" />
+				</figure>
+			</div>
+
+			<div class="ultimahoradeportes">
+				<h2>DEPORTES<a id="deportes" class="anchor"></a></h2>
+				<figure>
+					<img src="futbol.jpg" alt="Noticias" id="imgNoticias" />
+				</figure>
+				<h3>FUTBOL</h3>
+				<p>¡El Chelsea pone límites! El precio que pide por Azpilicueta y Marcos Alonso</p>
+			</div>
+			<div class="ultimahoraeconomia">
+				<h2>ECONOMIA<a id="economia" class="anchor"></a></h2>
+				<figure>
+					<img src="empresas.png" alt="Noticias" id="imgNoticias" />
+				</figure>
+				<h3>EMPRESAS</h3>
+				<p>Indra se desploma un 14,7% en bolsa y la CNMV da la alarma sobre la toma de control del Gobierno: "Es preocupante"</p>
+			</div>
+			<div class="ultimahoraciencia">
+				<h2>CIENCIA<a id="ciencia" class="anchor"></a></h2>
+				<figure>
+					<img src="covid.jpg" alt="Noticias" id="imgNoticias" />
+				</figure>
+				<h3>COVID 19</h3>
+				<p>El Covid se dispara antes de las vacaciones: síntomas, test, vacunas y cuarentenas, así es el protocolo Covid hoy</p>
+			</div>
+		</div>
+	</body>
+</html>

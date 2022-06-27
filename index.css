@@ -1,0 +1,201 @@
+* {
+	box-sizing: border-box;
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+h1 {
+	color: #0f31f1;
+	text-align: justify;
+	margin-top: 50px;
+	font-family: "Brush Script MT", cursive;
+}
+h2 {
+	color: rgb(9, 0, 129);
+	font-family: "Brush Script MT", cursive;
+}
+h3 {
+	text-align: center;
+	margin-right: 30px;
+}
+p {
+	text-align: center;
+	font-size: 150%;
+	font-family: "Copperplate", fantasy;
+	background: -webkit-linear-gradient(rgb(255, 136, 0), rgb(2, 63, 7));
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.anchor {
+	display: block;
+	position: relative;
+	top: -80px;
+	visibility: hidden;
+}
+figure,
+img {
+	margin-left: 160px;
+	height: 300px;
+	width: 400px;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+	display: block;
+	background: rgb(131, 58, 180);
+	background: linear-gradient(
+		90deg,
+		rgba(131, 58, 180, 1) 0%,
+		rgba(253, 29, 29, 1) 50%,
+		rgba(252, 176, 69, 1) 100%
+	);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 7;
+}
+.navbar a {
+	float: left;
+	display: block;
+	color: #f7e714;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.navbar-right {
+	float: right;
+}
+
+.dropdown {
+	float: left;
+}
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: rgb(245, 230, 17);
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+.dropdown:hover .dropbtn {
+	background-color: rgb(0, 0, 0);
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	width: 5%;
+}
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: rgb(241, 158, 3);
+	color: rgb(22, 90, 218);
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+@media only screen and (max-width: 765px) and (min-width: 587px) {
+	.main {
+		margin-top: 104px;
+	}
+}
+@media only screen and (max-width: 586px) and (min-width: 509px) {
+	.main {
+		margin-top: 150px;
+	}
+}
+@media only screen and (max-width: 508px) and (min-width: 395px) {
+	.main {
+		margin-top: 106px;
+	}
+}
+@media only screen and (max-width: 394px) and (min-width: 337px) {
+	.main {
+		margin-top: 152px;
+	}
+}
+@media only screen and (max-width: 336px) and (min-width: 281px) {
+	.main {
+		margin-top: 198px;
+	}
+}
+@media only screen and (max-width: 280px) and (min-width: 244px) {
+	.main {
+		margin-top: 200px;
+	}
+}
+@media only screen and (max-width: 243px) and (min-width: 206px) {
+	.main {
+		margin-top: 246px;
+	}
+}
+@media only screen and (max-width: 205px) and (min-width: 185px) {
+	.main {
+		margin-top: 294px;
+	}
+}
+@media only screen and (max-width: 184px) and (min-width: 180px) {
+	.main {
+		margin-top: 342px;
+	}
+}
+@media only screen and (max-width: 179px) and (min-width: 167px) {
+	.main {
+		margin-top: 390px;
+	}
+}
+@media only screen and (max-width: 166px) and (min-width: 100px) {
+	.main {
+		margin-top: 438px;
+	}
+	[class*="presentacion"] {
+		width: 100%;
+	}
+}
+button[type="enviar"] {
+	background-color: #05a5e4;
+	padding: 1px 1px;
+	cursor: pointer;
+	text-align: center;
+}
+button[type="enviar"]:hover {
+	background-color: #041f05;
+}
+.ultimahoradeportes {
+	background-color: rgb(13, 252, 192);
+}
+.ultimahoraeconomia {
+	background-color: #d5f714;
+}
+.ultimahoraciencia {
+	background-color: rgb(135, 252, 1);
+}

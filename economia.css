@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+h1 {
+	color: rgb(0, 153, 0);
+	font-family: "Brush Script MT", cursive;
+	text-align: center;
+	font-size: 75px;
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+p {
+	text-align: center;
+	font-size: 25px;
+}
+.ultimahoraeconomia {
+	background-color: #f71414;
+	color: white;
+}
+figure,
+img {
+	margin-left: 365px;
+	max-width: 100%;
+}
+.contenedor-imagenes,
+img {
+	margin-left: 10px;
+	width: 300px;
+	height: 350px;
+	display: flex;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+@media screen and (max-width: 600px) {
+	.ultimahoraeconomia {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+[class*="row"] {
+	width: 100%;
+}
+[class*="ultimahoraeconomia"] {
+	width: 100%;
+}

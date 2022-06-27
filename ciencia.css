@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+}
+h1 {
+	color: rgb(153, 0, 94);
+	font-family: "Brush Script MT", cursive;
+	text-align: center;
+	font-size: 75px;
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+p {
+	text-align: center;
+	font-size: 25px;
+}
+.ultimahoraciencia {
+	background-color: rgb(255, 0, 0);
+	color: white;
+}
+figure,
+img {
+	margin-left: 325px;
+	max-width: 100%;
+}
+.contenedor-imagenes,
+img {
+	margin-left: 1px;
+	width: 400px;
+	height: 350px;
+	display: flex;
+}
+.contenedor-imagenes {
+	text-align: center;
+	margin-right: 160px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+@media screen and (max-width: 600px) {
+	.ultimahoraciencia {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+[class*="row"] {
+	width: 100%;
+}
+[class*="ultimahoraciencia"] {
+	width: 100%;
+}
