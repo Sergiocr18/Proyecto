@@ -1,4 +1,4 @@
-# NEWS ULTIMA HORA.
+# NEWS ULTIMA HORA
 
 ## Descripcion del proyecto
 
