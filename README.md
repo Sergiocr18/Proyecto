@@ -12,9 +12,9 @@
 
 - En la pagina principal, si tiras para abajo habra una noticia de cada seccion
 
-- En las paginas de deportes, economia, ciencia, habra 3 notcia y marcado en rojo la noticia de ultimissima hora.
+- En las paginas de deportes, economia, ciencia, habra 3 notcias y marcado en rojo la noticia de ultimissima hora.
 
-## Enlaces
+## Demos
 
 - [Repositorio GitHub](https://github.com/Sergiocr18/Proyecto)
 
@@ -34,7 +34,7 @@
 ![Optional Text](./ciencia.png)
 ![Optional Text](./deportes.png)
 
-### REQUISITOS TECNICOS COMPLETOS
+# REQUISITOS TECNICOS COMPLETOS
 
 ## Lenguajes
 
@@ -69,9 +69,7 @@
 ## Puntos fuertes del protyecto
 
 - En el menu te llevara a diferentes paginas webs.
-
 - Habra Scroll en la pagina principal.
-
 - Registrarse en la pagina web.
 
 ### ENTREGA DEL DIAGRAMA DE GRANT FINAL
