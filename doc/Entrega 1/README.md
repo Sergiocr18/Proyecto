@@ -34,7 +34,7 @@
 
 ## Descripcion de las caracteristicas del proyecto
 
-- Este proyecto sera un FrontEnd en que la pagina principal habra menu principal donde habra 3 secciones:
+-Este proyecto sera un FrontEnd en que la pagina principal habra menu principal donde habra 3 secciones:
 1 - Habra un sub menu donde podras accder a otras webs,
 2 - Habra 3 secciones con scroll.
 3 - Habra un boton donde te llevara a un formulario para registrarte.
@@ -45,7 +45,7 @@
 
 - Los que quieran enterarse de lo que sucede en el mundo, en su pais, en su ciudad, en su pueblo, que mire esta web.
 
-- Los interesados seran mayores de edad.
+- Los interesados sera mayores de edad.
 
 ## Mercado a cubrir
 
@@ -80,6 +80,10 @@
 
 [Optional Text](./proyecto.xlsx)
 
+## Paths
+
+![Optional Text](./ProyectoNoticias.png)
+
 ## Wireframes
 
 ![Optional Text](./IndexNoticias.png)
@@ -91,10 +95,6 @@
 ![Optional Text](./Deportes.png)
 
 ![Optional Text](./Economia.png)
-
-## Paths
-
-![Optional Text](./ProyectoNoticias.png)
 
 ## Mokups
 
