@@ -18,7 +18,7 @@
 
 - [Repositorio GitHub](https://github.com/Sergiocr18/Proyecto)
 
-- [Demo heroku con PHP](https://sergioprojecto.herokuapp.com/)
+- [Heroku con PHP](https://sergioprojecto.herokuapp.com/)
 
 ## doc
 
