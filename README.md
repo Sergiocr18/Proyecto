@@ -1,18 +1,4 @@
-### DOCUMENTACION TECNICA
-
-## Nombre de proycto
-
-- NEWS ULTIMA HORA.
-
-## Enlaces
-
-- [Repositorio GitHub](https://github.com/Sergiocr18/Proyecto)
-
-- [Demo heroku con PHP](https://sergioprojecto.herokuapp.com/)
-
-- [Readme entrega1](./doc/Entrega1/README.md)
-
-- [Readme entrega2](./doc/Entrega2/Readme.md)
+# NEWS ULTIMA HORA.
 
 ## Descripcion del proyecto
 
@@ -27,6 +13,18 @@
 - En la pagina principal, si tiras para abajo habra una noticia de cada seccion
 
 - En las paginas de deportes, economia, ciencia, habra 3 notcia y marcado en rojo la noticia de ultimissima hora.
+
+## Enlaces
+
+- [Repositorio GitHub](https://github.com/Sergiocr18/Proyecto)
+
+- [Demo heroku con PHP](https://sergioprojecto.herokuapp.com/)
+
+## doc
+
+- [Readme entrega1](./doc/Entrega1/README.md)
+
+- [Readme entrega2](./doc/Entrega2/Readme.md)
 
 ## Mokups
 
@@ -44,17 +42,18 @@
 2 - CSS
 3 - JavaScript
 4 - PHP
+5 - JSON
+6 - Ajax
 
 ## Biblioteques
 
 1 - [Bootstrap 3.5.0](https://getbootstrap.com/)
 2 - [Jquery](https://fonts.google.com/)
-3 - JSon
-4 - Ajax
-5 - [Re-Captcha](https://www.google.com/recaptcha/about/)
-6 - PHP Mailer
+3 - [Re-Captcha](https://www.google.com/recaptcha/about/)
+4 - [Composer](https://getcomposer.org/)
+5 - PHP Mailer
 
-## Base de dades
+## Base de datos
 
 1 - [mysql/MariaDB](https://www.phpmyadmin.co/index.php)
 

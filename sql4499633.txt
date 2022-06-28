@@ -1,0 +1,96 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.1
+-- https://www.phpmyadmin.net/
+--
+-- Servidor: sql4.freemysqlhosting.net
+-- Tiempo de generación: 28-06-2022 a las 06:42:07
+-- Versión del servidor: 5.5.54-0ubuntu0.12.04.1
+-- Versión de PHP: 7.0.33-0ubuntu0.16.04.16
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de datos: `sql4499633`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuarios`
+--
+
+CREATE TABLE `usuarios` (
+  `email` varchar(50) NOT NULL,
+  `nombre` varchar(30) NOT NULL,
+  `phone` int(9) NOT NULL,
+  `password` char(32) CHARACTER SET latin1 NOT NULL,
+  `reg_date` timestamp NULL DEFAULT NULL,
+  `token` char(32) NOT NULL,
+  `date_update` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuarios_temp`
+--
+
+CREATE TABLE `usuarios_temp` (
+  `apellidos` varchar(60) NOT NULL,
+  `c_autonoma` varchar(60) NOT NULL,
+  `age` int(4) NOT NULL,
+  `checkbox1` int(1) NOT NULL,
+  `checkbox2` int(1) NOT NULL,
+  `checkbox3` int(1) NOT NULL,
+  `id` int(10) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `nombre` varchar(30) NOT NULL,
+  `phone` int(9) NOT NULL,
+  `reg_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `usuarios_temp`
+--
+
+INSERT INTO `usuarios_temp` (`apellidos`, `c_autonoma`, `age`, `checkbox1`, `checkbox2`, `checkbox3`, `id`, `email`, `nombre`, `phone`, `reg_date`) VALUES
+('carbajo rodriguez', 'navarra', 22, 1, 1, 1, 47, 'sergioencinedo18@gmail.com', 'sergio', 231423, '2022-06-27 07:42:50');
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  ADD PRIMARY KEY (`email`);
+
+--
+-- Indices de la tabla `usuarios_temp`
+--
+ALTER TABLE `usuarios_temp`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `usuarios_temp`
+--
+ALTER TABLE `usuarios_temp`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
