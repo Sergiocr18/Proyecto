@@ -23,12 +23,12 @@ p {
 }
 figure,
 img {
-	margin-left: 365px;
+	margin-left: 440px;
 	max-width: 100%;
 }
 .contenedor-imagenes,
 img {
-	margin-left: 10px;
+	margin-left: 75px;
 	width: 300px;
 	height: 350px;
 	display: flex;

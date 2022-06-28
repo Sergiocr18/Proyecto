@@ -19,7 +19,7 @@ html {
 
 h1 {
 	color: #0f31f1;
-	text-align: justify;
+	text-align: center;
 	margin-top: 50px;
 	font-family: "Brush Script MT", cursive;
 }
@@ -47,7 +47,7 @@ p {
 }
 figure,
 img {
-	margin-left: 160px;
+	margin-left: 230px;
 	height: 300px;
 	width: 400px;
 }

@@ -28,14 +28,14 @@ img {
 }
 .contenedor-imagenes,
 img {
-	margin-left: 1px;
+	margin-left: 130px;
 	width: 400px;
 	height: 350px;
 	display: flex;
 }
 .contenedor-imagenes {
 	text-align: center;
-	margin-right: 160px;
+	margin-left: 15px;
 }
 .row:after {
 	content: "";

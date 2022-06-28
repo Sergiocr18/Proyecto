@@ -16,12 +16,12 @@ h2 {
 }
 figure,
 img {
-	margin-left: 335px;
+	margin-left: 410px;
 	max-width: 100%;
 }
 .contenedor-imagenes,
 img {
-	margin-left: 10px;
+	margin-left: 75px;
 	width: 350px;
 	height: 350px;
 	display: flex;
