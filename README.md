@@ -2,11 +2,17 @@
 
 ## Nombre de proycto
 
-- News ultima hora.
+- NEWS ULTIMA HORA.
 
-## Enlace fitxero fuente
+## Enlaces
 
-- https://github.com/Sergiocr18/Proyecto
+- [Repositorio GitHub](https://github.com/Sergiocr18/Proyecto)
+
+- [Demo heroku con PHP](https://sergioprojecto.herokuapp.com/)
+
+- [Readme entrega1](./doc/Entrega1/README.md)
+
+- [Readme entrega2](./doc/Entrega2/Readme.md)
 
 ## Descripcion del proyecto
 
@@ -41,16 +47,16 @@
 
 ## Biblioteques
 
-1 - Bootstrap
-2 - Jquery
+1 - [Bootstrap 3.5.0](https://getbootstrap.com/)
+2 - [Jquery](https://fonts.google.com/)
 3 - JSon
 4 - Ajax
-5 - Re-Captcha
+5 - [Re-Captcha](https://www.google.com/recaptcha/about/)
 6 - PHP Mailer
 
 ## Base de dades
 
-1 - mysql/MariaDB
+1 - [mysql/MariaDB](https://www.phpmyadmin.co/index.php)
 
 ## Herramientas
 
